@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteiner {
+  margin-inline: auto;
+  max-width: 900px;
+  min-width: 320px;
+  padding: 1em;
+}
+
+header {
+  background-color: #a0522d;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2rem;
+}
+
+main {
+  background-color: #faf0e6;
+  color: #2f4f4f;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+}
+
+.subtitulo {
+  font-size: 1.5em;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.produto {
+  list-style-type: none;
+  min-width: 320px;
+  max-width: 420px;
+  color: #f5f5dc;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  background-color: #556b2f;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+}
+
+.nome-do-produto {
+  font-size: 1.5rem;
+}
+
+.imagem-do-produto {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.preco-do-produto {
+  font-weight: bold;
+}
+
+.texto-destacado {
+  color: #ffd700;
+}
+
+.botao-whatsapp {
+  background-color: #25d366;
+  color: #ffffff;
+  border: none;
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  font-size: 16px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.botao-whatsapp:hover {
+  cursor: pointer;
+  background-color: #1ebe56;
+}
+
+footer {
+  background-color: #a0522d;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
